@@ -180,6 +180,7 @@
 
 % Geogebra command. Requires id, width, and height as arguments.
 %defining keys for answer geogebra key=value pairs
+%NOTE: Setting the ai key to true seems to break the widget.
 \define@key{geogebra}{rc}[true]{\def\geo@rc{#1}}
 \define@key{geogebra}{sdz}[true]{\def\geo@sdz{#1}}
 \define@key{geogebra}{smb}[true]{\def\geo@smb{#1}}
